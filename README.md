@@ -12,7 +12,8 @@ function gerarAleatorios(){
         vetor.push(aleatorio)
     }
     return vetor
-}```
+}
+```
 
 
 Porém, essa função traz repetições entre os números gerados. Para deixar a solução mais acertiva, um caminho pode ser tomado, como segue:
