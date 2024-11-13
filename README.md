@@ -53,7 +53,7 @@ Com isso, podemos, por exemplo, pedir para gerar 50 números aleatórios, obtend
 
 Redução de desperdícios que está completamente alinhada ao conceito de TI VERDE e faz parte da agenda de Objetivos Sustentáveis das Nações Unidas (https://brasil.un.org/pt-br/sdgs).
 
- *Consumo e produção responsáveis*
+ *Consumo e produção responsáveis e*
  *Ação contra a mudança global do clima*
 
 Portanto, o objetivo deste trabalho foi desenvolver uma nova versão deste algoritmo que desperdice menos recursos computacionais que o aqui mostrado. Eu devia provar que o meu algoritmo é melhor e informar, em termos percentuais, quanto tempo menos o algoritmo levou para processar e entregar o resultado.
