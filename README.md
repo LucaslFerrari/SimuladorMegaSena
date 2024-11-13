@@ -4,6 +4,7 @@ O professor Otávio pediu para seus alunos escrever uma função em javascript q
 
 Num primeiro momento, podemos gerar uma função simples que se encarrega da tarefa, que pode ser vista a seguir:
 
+```JavaScript
 function gerarAleatorios(){
     var vetor = []
     while (vetor.length < 6){
@@ -11,11 +12,12 @@ function gerarAleatorios(){
         vetor.push(aleatorio)
     }
     return vetor
-}
+}```
 
 
 Porém, essa função traz repetições entre os números gerados. Para deixar a solução mais acertiva, um caminho pode ser tomado, como segue:
 
+```JavaScript
 function gerarAleatorios(){
     var vetor = []
     while (vetor.length < 6){
@@ -28,11 +30,11 @@ function gerarAleatorios(){
         }
     }
     return vetor
-}
-
+}```
 
 Agora, nossa função gera números aleatórios sem repetições. Porém, uma pergunta veio à mente. Se pedirmos para gerar mais números aleatórios, quantas "repetições inúteis" teremos feito? Chegamos então a uma variante do problema:
 
+```JavaScript
 function gerarAleatorios(){
     var vetor = []
     var geracoes = []
@@ -47,7 +49,7 @@ function gerarAleatorios(){
     }
     console.log("Gerações:", geracoes)
     console.log("Finais:", vetor)
-}
+}```
 
 Com isso, podemos, por exemplo, pedir para gerar 50 números aleatórios, obtendo o seguinte resultado de que para gerar 50 números aleatórios por esta abordagem, tivemos de gerar 85 números. 35 repetições são completamente inúteis. Este é um grande problema da computação que motiva uma área extremamente nobre conhecida como otimização, a qual visa melhorar a performance dos algoritmos e consequemente aproveitar melhor os recursos computacionais disponíveis, reduzindo desperdícios.
 
